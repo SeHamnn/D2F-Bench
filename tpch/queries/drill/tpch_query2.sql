@@ -57,7 +57,3 @@ t1.ps_supplycost=t2.ps_min_supplycost
 order by 
 s_acctbal desc, n_name, s_name, p_partkey 
 limit 100;
-
-
-
-select * from q2_minimum_cost_supplier limit 5;
